@@ -1,0 +1,165 @@
+body{
+    background-image: url("http://www.indiamarks.com/wp-content/uploads/Indian-Wedding-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%; 
+    overflow-x: hidden; 
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+.pContent{
+    color: rgb(32, 27, 27);
+    width: 68%;
+    padding: 4%;
+    font-size: 20px;
+}
+
+b{
+    margin:10px;
+    margin-left: 0px;
+}
+
+.fields{
+    width: 2vw;
+}
+
+.Pimage{
+    margin-top:3%;
+    width: 95%;
+   
+}
+.navB{
+    color: blanchedalmond;
+    margin-left: 2%;
+    min-width: 60px;
+    padding-right: 45%;
+    text-decoration: none;
+}
+
+.navImg{
+    width: 160px;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    color: white;
+  }
+
+  .pLine{
+      
+      width: 80%;
+      height: 50px;
+      margin: 0px;
+      border:none ;
+      border-top: 10px solid rgba(0, 0, 0, 0.322);
+      margin-bottom: -8%;
+      
+  }
+
+
+@media screen and (max-width:500px){
+    .navB{    
+        padding-right: 1%;
+    }
+    #co{
+        border-style: none;
+        width: auto;
+        border-radius: 0px;
+    }
+    .navImg{
+
+        padding-left: 150px;
+        width: 300px;
+        
+    }
+    
+ 
+}
+
+
+.login_form_content{
+    margin-top: -4%;
+    background-color: rgba(218, 0, 0, 0.822);
+    color:white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+.login_image{
+    width: 30%;
+    margin-left: 30%;
+    margin-top: -4%;
+    margin-bottom: 2%;
+}
+
+i{
+    color: white;
+}
+
+/* for links */
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(128, 19, 0);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 255, 255);
+  }
+
+
+footer{
+    background-color: #ff3c0086;
+
+}
+
+.img-fluid{
+width: 100%;
+}
+
+#co{
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 100px;
+    border-color: rgb(255, 251, 42);
+    border-radius: 10px;
+    margin: 10px;
+    align-content: center;
+    font-weight: bold;
+    
+}
+#co:hover{
+    border-color: rgb(255, 230, 0);
+    background-color: rgb(107, 2, 2);
+    color: rgb(255, 0, 0);
+    
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    color: cornsilk;
+  }

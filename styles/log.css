@@ -1,0 +1,104 @@
+body{
+    background-image: url('pictures/bG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 120%;
+    font-family: 'Athiti', sans-serif;
+}
+
+.main_area{
+    position: absolute;
+    width: 40%;
+    height:75%;
+    margin-left:28%;
+    margin-top: 6%;
+    background: rgba(161, 4, 4, 0.849);
+    border-radius: 30px;
+    align-items: center;
+}
+
+.header{
+    text-align: center;
+    font-family:'Averia Libre', cursive;
+    color: white;
+    font-size: 3vw;
+}
+hr{
+    margin-top: -3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+@media screen and (max-width:800px){
+    .main_area{
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+        height: 75%;
+    }
+
+    .header{
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width:600px){
+    .main_area{
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 80%;
+        height: 70%;
+    }
+
+    .header{
+        margin-top:8%;
+        font-size: 8vw;
+    }
+}
+
+.mlabel{
+    color: white;
+    text-align: center;
+}
+
+.fields{
+    font-size: 90%;
+    color:rgb(255, 255, 255);
+    margin-top: 5%;
+    border: none;
+    border-bottom: solid 2px white;
+    background-color:#1F321C;
+    width: 80%;
+    height: 55px;
+    outline: none;
+}
+
+.login_button{
+    font-size: 90%;
+    color: silver;
+    margin-top: 5%;
+    border: none;
+    background-color:#880202;
+    width: 80%;
+    height: 55px;
+    outline: none;
+    background: rgba(102, 14, 2, 0.9);
+    border-radius: 50px;
+}
+
+#pic{
+    margin-top: -7px;
+}
+
+#navbarNavAltMarkup{
+    background-color:white;
+}
+
+.navImg{
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left:33%;
+    margin-top: 2%;
+}
