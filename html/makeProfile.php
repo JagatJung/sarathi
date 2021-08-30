@@ -2,10 +2,13 @@
 include "../php/header.php";
 ?> 
  <body class="bg-dark">
-      
-    
+     
+  <div class="container container-fluid float-centre">
     <div class="container bg-danger m-5 col-sm-10" style="border-radius: 10px;">
-      <form action="../database/userdata.php" method="POST">      
+    <br>
+    <H1>Enter the details to edit your portfolio</H1>
+    <br>  
+    <form action="../database/userdata.php" method="POST">      
         <div class="row px-5 pt-2">
           <div class="form-group col-6">
             <label for="profile picture">Enter your date of birth</label>
@@ -85,6 +88,7 @@ include "../php/header.php";
           <div class="row justify-content-end pr-5 pb-5 pt-3"><button class="btn btn-warning px-5 ">submit</button></div>
       </form>
       </div>
+  </div>
                
 <?php
 include "../php/footer.php";

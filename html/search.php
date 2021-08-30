@@ -101,7 +101,7 @@ if(isset($_SESSION['token'])){
                     ?>
                         
                         <a href="viewProfile.php?token=<?php echo $ntoken;?>"><div class="col-sm-12 col-lg-3 card bg-danger mt-3 shadow-lg mr-lg-4 mb-lg-0 " style="border-width:0px; border-radius: 10px;">
-                        <img class="card-img-top ml-5 mt-1 pt-2" src="../pictures/<?php echo $pic;?>" alt="Card image" style="width:70%">
+                        <img class="card-img-top ml-5 mt-1 pt-2" src="../database/pictures/<?php echo $pic;?>" alt="Card image" style="width:70%">
                         <div class="card-body">
                             <h4 class="card-title text-dark text-center"><b><?php echo $uname;?></b></h4>
                             <p class="card-text text-light text-center"><b>My name is <?php echo $uname;?>. My age is <?php echo $dob;?>. <br>I work in <?php echo $org;?> (<?php echo $job;?>)</b></p>

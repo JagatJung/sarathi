@@ -6,6 +6,7 @@ include "php/header.php";
 <div class="container-fluid pb-4 pt-3" style="background-color:white;">
 <img src="pictures/home-pic.png" class="img-fluid" style="background-color:white;">
 <div class="center"><br>Find Your Ideal Patner<a href="html/register.php" class="btn btn-warning justify-content-center p-3" style="color:black; font-size:20px; margin-left:36%;">Register NOW</div></div>
+</div></a>
 </div>
 <br>
 <div class="container-fluid fixer" style="background-color: red;" id="aboutme">
